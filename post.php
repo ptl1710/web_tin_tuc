@@ -44,7 +44,7 @@ $data = $homelib->get_list($sql);
         <div class="card-body">
             <h2 class="card-title"><?php echo $data[$i]['title']; ?></h2>
             <p class="card-text"><?php echo substr($data[$i]['content'], 0, 200) . '...'; ?></p>
-            <a href="#" class="btn btn-primary">Xem thêm &rarr;</a>
+            <a href="./postdetail.php" class="btn btn-primary">Xem thêm &rarr;</a>
         </div>
     </div>
     <?php
